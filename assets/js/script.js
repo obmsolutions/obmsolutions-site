@@ -1,0 +1,4 @@
+const b=document.querySelector('.hamb'),m=document.querySelector('.menu');
+if(b&&m){b.addEventListener('click',()=>{const o=m.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Fechar menu':'Abrir menu')});m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{m.classList.remove('open');b.setAttribute('aria-expanded','false')}));}
+const links=[...document.querySelectorAll('.menu a')];const sections=[...document.querySelectorAll('main section[id]')];
+addEventListener('scroll',()=>{let id='inicio';sections.forEach(s=>{if(scrollY>=s.offsetTop-160)id=s.id});links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id))},{passive:true});

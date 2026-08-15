@@ -194,3 +194,75 @@ img{display:block;max-width:100%}
   .pillar>img{height:190px}
   .services-grid{grid-template-columns:1fr}
 }
+
+
+/* =========================================================
+   FASE 4 v1 — ARQUITETURA DE CONTEÚDO E CONVERSÃO
+   ========================================================= */
+.solution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.solution-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px;box-shadow:var(--shadow);overflow:hidden}
+.solution-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px}
+.blue-line:before{background:var(--blue)}
+.green-line:before{background:var(--green)}
+.orange-line:before{background:var(--orange)}
+.solution-number{font-size:2rem;font-weight:950;color:#dbe5f2}
+.solution-card h3{font-size:1.12rem;margin:8px 0 10px}
+.solution-card p{font-size:.88rem;color:var(--muted)}
+.solution-card a{display:inline-block;margin-top:10px;color:var(--blue);font-size:.84rem;font-weight:850}
+.green-line a{color:var(--green)}
+.orange-line a{color:var(--orange)}
+
+.detail-section{background:#fff}
+.safety-detail{background:#f7faf8}
+.detail-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:center}
+.detail-layout.reverse{grid-template-columns:.8fr 1.2fr}
+.detail-intro h2{font-size:2.25rem;line-height:1.1;margin:10px 0 14px}
+.detail-intro>p{color:var(--muted);margin-bottom:24px}
+.detail-label{font-size:.73rem;font-weight:900;letter-spacing:.15em}
+.blue-text{color:var(--blue)}
+.green-text{color:var(--green)}
+.green-btn{background:linear-gradient(135deg,#118944,#20a85b);color:#fff;box-shadow:0 10px 25px rgba(20,146,75,.20)}
+.detail-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+.detail-cards article{background:#fff;border:1px solid var(--line);border-radius:13px;padding:20px;box-shadow:0 8px 24px rgba(6,24,47,.05)}
+.detail-cards h3{font-size:.94rem;margin:0 0 7px}
+.detail-cards p{font-size:.8rem;color:var(--muted);margin:0}
+
+.vehicle-detail{background:linear-gradient(145deg,#071b39,#08285a);color:#fff}
+.vehicle-detail-head{max-width:900px;margin-bottom:32px}
+.vehicle-detail-head>span{color:#ffad76;font-size:.73rem;font-weight:900;letter-spacing:.15em}
+.vehicle-detail-head h2{font-size:2.35rem;line-height:1.1;margin:10px 0 12px}
+.vehicle-detail-head p{color:#cfdaea}
+.vehicle-process{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0}
+.vehicle-process article{border:1px solid rgba(255,255,255,.14);border-radius:13px;padding:20px;background:rgba(255,255,255,.045)}
+.vehicle-process b{color:#ff8a42;font-size:1.4rem}
+.vehicle-process h3{margin:7px 0 6px;font-size:.98rem}
+.vehicle-process p{margin:0;color:#cbd8e9;font-size:.79rem}
+.vehicle-services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.vehicle-services-grid article{background:#fff;color:var(--ink);border-radius:13px;padding:20px}
+.vehicle-services-grid h3{font-size:.95rem;margin:0 0 7px}
+.vehicle-services-grid p{font-size:.8rem;color:var(--muted);margin:0}
+.vehicle-cta{margin-top:28px;border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:25px;background:rgba(255,255,255,.055)}
+.vehicle-cta strong,.vehicle-cta span{display:block}
+.vehicle-cta span{font-size:.82rem;color:#cfdaea;margin-top:4px}
+.orange-btn{background:linear-gradient(135deg,#ef651a,#ff833a);color:#fff;white-space:nowrap}
+
+.decision-cta{background:#eef5ff;padding:42px 0}
+.decision-layout{display:flex;align-items:center;justify-content:space-between;gap:35px}
+.decision-layout>div{max-width:800px}
+.decision-layout span{color:var(--blue);font-size:.72rem;font-weight:900;letter-spacing:.14em}
+.decision-layout h2{font-size:1.85rem;line-height:1.15;margin:7px 0 0}
+
+@media(max-width:1024px){
+  .solution-grid{grid-template-columns:1fr}
+  .detail-layout,.detail-layout.reverse{grid-template-columns:1fr}
+  .vehicle-process{grid-template-columns:repeat(2,1fr)}
+  .vehicle-services-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  .detail-intro h2,.vehicle-detail-head h2{font-size:1.8rem}
+  .detail-cards{grid-template-columns:1fr}
+  .vehicle-process,.vehicle-services-grid{grid-template-columns:1fr}
+  .vehicle-cta,.decision-layout{display:block}
+  .vehicle-cta .btn,.decision-layout .btn{width:100%;margin-top:20px}
+  .decision-layout h2{font-size:1.55rem}
+}

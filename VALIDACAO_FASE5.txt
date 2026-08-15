@@ -1,0 +1,8 @@
+OK - hero_preservado
+OK - marca_version
+OK - cat
+OK - cct
+OK - componentes
+OK - limite_regulatorio
+OK - cta_fabricantes
+OK - responsive

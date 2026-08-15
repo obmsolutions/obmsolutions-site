@@ -1,0 +1,7 @@
+OK - menu_inicio_corrigido
+OK - implementos_corrigido
+OK - hero_preservado
+OK - fase4_mecanica
+OK - fase4_seguranca
+OK - fase4_veicular
+OK - version_marker

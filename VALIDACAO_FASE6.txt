@@ -1,0 +1,8 @@
+OK - hero_oficial
+OK - title_seo
+OK - canonical
+OK - og_image
+OK - twitter_card
+OK - jsonld_logo
+OK - robots_sitemap
+OK - sitemap_domain

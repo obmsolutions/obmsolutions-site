@@ -1,0 +1,26 @@
+OBM SOLUTIONS — FASE 6 | SEO E PREPARAÇÃO PARA PRODUÇÃO
+
+Base: index.html atual enviado pelo usuário.
+
+ALTERAÇÕES:
+- HERO corrigido para assets/images/hero-obm-solutions.png.
+- Title SEO revisado.
+- Meta description revisada.
+- Open Graph ampliado.
+- Twitter Card incluído.
+- JSON-LD ProfessionalService ampliado sem métricas inventadas.
+- robots.txt preparado para www.obmsolutions.com.br.
+- sitemap.xml preparado para www.obmsolutions.com.br.
+- Canonical preservado em https://www.obmsolutions.com.br/.
+
+IMPORTANTE:
+Este pacote contém somente os arquivos que precisam ser substituídos/adicionados nesta etapa:
+- index.html
+- robots.txt
+- sitemap.xml
+
+Não substitua CSS, JavaScript nem imagens nesta etapa.
+O HERO, layout e demais elementos visuais aprovados não foram redesenhados.
+
+PRÓXIMA ETAPA:
+Após publicar estes 3 arquivos no GitHub, configurar domínio personalizado e DNS.

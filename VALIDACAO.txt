@@ -1,6 +1,0 @@
-OK - arquivos_obrigatorios
-OK - h1_unico
-OK - viewport_responsivo
-OK - nr12_nr35_fora_menu_principal
-OK - sem_numeros_inventados
-OK - imagens_pilares_individuais

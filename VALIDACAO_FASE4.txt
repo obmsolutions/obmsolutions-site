@@ -1,9 +1,0 @@
-OK - base_fase3_preservada
-OK - engenharia_mecanica_detalhada
-OK - seguranca_detalhada
-OK - veicular_detalhada
-OK - nr12_nr35_agrupadas
-OK - fluxo_homologacao
-OK - cta_por_area
-OK - responsividade_fase4
-OK - sem_metricas_comerciais_inventadas

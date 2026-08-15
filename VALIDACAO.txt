@@ -1,0 +1,8 @@
+OK - index_autocontido
+OK - sem_css_externo
+OK - sem_js_externo
+OK - logo_embutida
+OK - imagens_embutidas
+OK - nr12_nr35_nao_menu_principal
+OK - viewport
+OK - h1_unico

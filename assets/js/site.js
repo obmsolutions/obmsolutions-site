@@ -1,1 +1,0 @@
-const b=document.querySelector('.hamb'),m=document.querySelector('#menu');b?.addEventListener('click',()=>{const o=m.classList.toggle('open');b.setAttribute('aria-expanded',o);b.textContent=o?'×':'☰'});m?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{m.classList.remove('open');b.textContent='☰';b.setAttribute('aria-expanded','false')}));

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#073b91"/><stop offset="1" stop-color="#1268ff"/></linearGradient></defs>
-<g fill="none" stroke="url(#g)" stroke-width="10" opacity=".9">
-<circle cx="320" cy="320" r="168"/><circle cx="320" cy="320" r="94"/><circle cx="320" cy="320" r="28"/>
-<path d="M320 96v56M320 488v56M96 320h56M488 320h56M162 162l40 40M438 438l40 40M478 162l-40 40M202 438l-40 40"/>
-</g><g fill="none" stroke="#8fb8f3" stroke-width="2" opacity=".7">
-<circle cx="320" cy="320" r="232"/><circle cx="320" cy="320" r="268"/><path d="M48 320h544M320 48v544"/>
-</g></svg>

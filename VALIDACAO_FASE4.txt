@@ -1,0 +1,9 @@
+OK - hero_aprovado_existe
+OK - hero_aprovado_referenciado
+OK - hero_sem_crop
+OK - badge_html_removido
+OK - fase4_mecanica
+OK - fase4_seguranca
+OK - fase4_veicular
+OK - nr12_nr35_agrupadas
+OK - version_marker
